@@ -1,5 +1,6 @@
 # X-MAS-Hack
 Хакатон по распознаванию вида документа
+
 ![2409ea111b496859403e25f22415afe60d5b02df](https://user-images.githubusercontent.com/95717191/215322880-38a3cff9-fbbc-4cbe-a162-fda7ff879748.png)
 
 
@@ -17,18 +18,29 @@
 
 # Решение: 
 
-![image](https://user-images.githubusercontent.com/95717191/215323003-1c4a7f28-e417-4ff1-835a-6b3dc522f06e.png)
+Финальным решением задачм хакатона является телеграмм-бот: "DocumentTypeChecker"
+
+![image](https://user-images.githubusercontent.com/95717191/215323182-a6d030d5-9755-4c1f-b48b-f7ff75cefe2e.png)
+
 
 
 # Инструкции:
 classes.json - инициальный документ с метками классов
+
 dataset_noise.csv - сформированный размеченный и расширенный датасет с шумом
+
 Document_type_checker.ipynb - тетрадка с ботом
+
 Document_type_checker.py - файл с реализацией препроцессинга и бота
+
 EDA_final.ipynb - тетрадка с эксплораторным анализом
+
 keyphrases2.txt - текстовый файл с ключевыми фразами
+
 LabelEncoder.pkl, logistic_model.pkl, tfidf.pkl - кодировщик, используемая модель и векторизатор
+
 noise_class.json - документ с метками классов расширенного датасет
 
 Textract запускать через докер образ:
+
 docker run -p 8080:8080 bespaloff/textract-rest-api
