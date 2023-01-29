@@ -25,22 +25,21 @@
 
 
 # Инструкции:
-classes.json - инициальный документ с метками классов
+*classes.json* - инициальный документ с метками классов
 
-dataset_noise.csv - сформированный размеченный и расширенный датасет с шумом
+*dataset_noise.csv* - сформированный размеченный и расширенный датасет с шумом
 
-Document_type_checker.ipynb - тетрадка с ботом
+*Document_type_checker.ipynb* - тетрадка с ботом
 
-Document_type_checker.py - файл с реализацией препроцессинга и бота
+*Document_type_checker.py* - файл с реализацией препроцессинга и бота
 
-EDA_final.ipynb - тетрадка с эксплораторным анализом
+*EDA_final.ipynb* - тетрадка с эксплораторным анализом
 
-keyphrases2.txt - текстовый файл с ключевыми фразами
+*keyphrases2.txt* - текстовый файл с ключевыми фразами
 
-LabelEncoder.pkl, logistic_model.pkl, tfidf.pkl - кодировщик, используемая модель и векторизатор
+*LabelEncoder.pkl, logistic_model.pkl, tfidf.pkl* - кодировщик, используемая модель и векторизатор
 
-noise_class.json - документ с метками классов расширенного датасет
+*noise_class.json* - документ с метками классов расширенного датасет
 
-Textract запускать через докер образ:
-
+*Textract запускать через докер образ:*
 docker run -p 8080:8080 bespaloff/textract-rest-api
