@@ -18,7 +18,7 @@
 
 # Решение: 
 
-Финальным решением задачм хакатона является телеграмм-бот: "DocumentTypeChecker"
+Финальным решением задачм хакатона является телеграмм-бот: **DocumentTypeChecker**
 
 ![image](https://user-images.githubusercontent.com/95717191/215323182-a6d030d5-9755-4c1f-b48b-f7ff75cefe2e.png)
 
